@@ -1,0 +1,2 @@
+1)There is a Quiz to test how much we have understood the concept:Without Using 
+Br tag, Write a vertically aligned form asking for name,city and pincode of a user.
