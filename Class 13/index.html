@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Entities,Code tag and many more</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    4>6
+    <div>
+        if i want to print this:
+        <p></p>(nothing is visible here)
+    </div>
+    i have to print like this: &lt; p &gt; &lt; / p &gt;
+    <pre>
+        <p>Hey iam writing this in the &lt;pre&gt; tag column</p>
+
+        i gave 2 spaces in the coding part 
+        which is showing similarly in the 
+        web also which is the speaciality of 
+        this &lt;pre&gt;tags &copy; &amp; &nbsp;
+    </pre>
+
+    <blockquote cite="Cite ka URL">
+        Google search engine here
+    </blockquote>
+    <q cite="https://en.wikipedia.org/wiki/Virat_Kohli">Virat Kohli </q>
+
+    <pre>
+        <code>
+            we can write our code here
+  section h1 {
+	font-size: 250%;
+}
+
+	section section h1 {
+		font-size: 150%;
+	}
+
+	section h1 code {
+		font-style: normal;
+	}
+
+	section h1 > a,
+	section h2[id] > a {
+		text-decoration: none;
+	}
+
+	section h1 > a:before,
+	section h2[id] > a:before {
+		content: '§';
+		position: absolute;
+		padding: 0 .2em;
+		margin-left: -1em;
+		border-radius: .2em;
+		color: silver;
+		text-shadow: 0 1px white;
+	}
+
+	section h1 > a:hover:before,
+	section h2[id] > a:hover:before {
+		color: black;
+		background: #f1ad26;
+	}
+
+p {
+	margin: 1em 0;
+}
+
+section h1,
+h2,
+h3 {
+	margin: 1em 0 .3em;
+}
+
+h2,
+h3 {
+	font-weight: normal;
+}
+
+header:before,
+footer:before {
+	content: '';
+	position: absolute;
+	bottom: 0; left: 0; right: 0;
+	height: 20px;
+	background-size: 20px 40px;
+	background-repeat: repeat-x;
+	background-image: linear-gradient(45deg, transparent 34%, white 34%, white 66%, transparent 66%),
+	                  linear-gradient(135deg, transparent 34%, white 34%, white 66%, transparent 66%);
+}
+        </code>
+    </pre>
+
+    <canvas id="mycanvas" width="200" height="100"></canvas>
+</body>
+
+</html>
