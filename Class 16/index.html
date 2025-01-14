@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector */
+        /* div{ */
+            /* background-color: yellow; */
+        /* } */
+
+        /* Class Selector */
+        .yellow{
+            background-color: yellow;
+        }
+        #green{
+            background-color: rgb(95, 255, 47);
+        }
+
+        /* Child Selector */
+        div > p{
+            background-color: aqua;
+        }
+        /* Descendant Selector */
+        div p {
+            background-color: bisque;
+        }
+
+        /* Universal Selector */
+        * {
+            margin: 2;
+            padding: 2;
+        }
+        /* Pseudo Selector */
+        a:visited{
+            color: red;
+        }
+        a:link{
+            color: rgb(246, 92, 2);
+        }
+        a:active{
+            background-color: yellow;
+        }
+        a:hover{
+            background-color: rgb(85, 255, 47);
+        }
+        p:first-child{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <span class="One">
+        <p>Iam First Child</p>
+        <p>Iam Second Child</p>
+    </span>
+
+    <div class="yellow">
+        Iam a Div I will be in a yellow Color.
+        <p>
+            Iam Child Of &lt;Div&gt;
+        </p>
+    </div>
+    <div id="green">
+        
+        Iam 2nd Div and i will be not be in any color.other than green
+    <article>
+    <p>
+        Iam the Grand child of this &lt;Div&gt;
+    </p>
+    
+    </article>
+    </div>
+
+    <a href="https://www.google.com">Google</a>
+
+</body>
+</html>
