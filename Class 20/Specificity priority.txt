@@ -1,0 +1,5 @@
+Inline Style, Specificity=1000 + important then Specificity=10,000
+ID Selector, Specificity=100
+Class or Attribute Selector,Specificity=10
+Element Selector, Specificity=1
+Universal Selector, Specificity=0

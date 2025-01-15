@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    /* Specificity=1,Element Selector */
+    h1{
+        color: aqua;
+    }
+    /* Specificity=10,Class Selector */
+    .Yellow{
+        color: yellow;
+    }
+    /* Specificity=10,Class Selector */
+    .red{
+        color: red !important;
+    }
+    /* Class Selector */ /* Specificity=10,Class Selector */
+    .blue{
+        color: blue;
+    }
+    /* Attribute Selector */ /* Specificity=10,Attribute Selector */
+    [data-x=a]{
+        background-color:yellow;
+    }
+</style>
+</head>
+<body>
+    <h1 class="Yellow red blue" data-x="a">Lets see which CSS comand will win</h1>
+</body>
+</html>
